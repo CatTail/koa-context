@@ -2,7 +2,7 @@
   "name": "koa-context",
   "description": "Extend koa context",
   "repository": "CatTail/koa-context",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [],
   "files": [
     "index.js",
