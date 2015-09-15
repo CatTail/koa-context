@@ -4,7 +4,30 @@
 
 ## Installation
 
+    npm install --save koa-context
+
 ## Usage
+
+With file `context/csrf.js`
+
+    module.exports = {
+        csrf: function() {
+            // blanblanblan
+        },
+        assertCSRF: function() {
+            // blanblanblan
+        },
+    };
+
+We can't extend context by
+
+    var app = require('koa')();
+    var context = require('koa-context');
+    context(app, __dirname + '/context');
+
+    app.use(function* () {
+        this.csrf();
+    });
 
 ## License
 
